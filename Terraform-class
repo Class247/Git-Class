@@ -1,0 +1,11 @@
+Notes: Jenkins pipeline
+project: bento
+services:
+  backend:
+    version: 4.8.0.230
+    image: 4.8.0.230
+    buildNumber: '230'
+  frontend:
+    version: 3.9.0.111
+    image: 3.9.0.111
+    buildNumber: '111'
